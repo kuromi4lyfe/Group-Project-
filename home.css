@@ -1,0 +1,215 @@
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;        
+        }
+        
+        /*Header*/
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #2B2B28;
+            color: #fff;
+            padding: 15px;
+            align-items: center;
+            height: 50px;  
+            width: auto;
+        }
+
+        header a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .logo{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            font-size: 70%;
+            margin-left: 40px;
+        }
+
+        nav{
+            margin-right: 40px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            position: relative;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            position: relative;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #2B2B28;
+            border-radius: 8px;
+        }
+
+        nav ul ul li {
+            width: 200px;
+            float: none;
+            display: list-item;
+            position: relative;
+        }
+
+        nav ul li:hover {
+            background-color: #E5C78A;
+        }
+
+        nav ul li:hover > ul{
+            display: inherit;
+        }
+
+        /*Homepage*/
+        #homepage{
+            text-align: center;
+            height: 90vh;
+            background-image: url("/homepage-tinted.jpg");
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #homepage img{
+            margin-left: 50px;
+        }
+
+        .text-home{
+            margin-right: 50px;
+        }
+
+        #homepage h1{
+            font-size: 60px;
+            font-weight: 700;
+        }
+
+        #homepage h3{
+            font-size: 20px;
+            font-weight: 400;
+
+        }
+
+        button{
+            background-color: #2B2B28;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            width: 150px;
+            height: 45px;
+            border-radius: 10px;
+            cursor: pointer;
+            
+        }
+
+        /*Upcoming Event Page*/
+
+        #upcoming-events{
+            background-color: #E4DED1;
+            overflow: hidden; 
+            text-align: center;
+        }
+        #upcoming-events h2 {
+            font-size: 30px;
+            margin: 15px;
+        }
+        #upcoming-events p{
+            font-size: 15px;
+        }
+
+        
+        #upcoming-events img{
+            width: 230px;
+            height: 250px;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .wrap{
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            gap: 20px;
+            padding: 30px;
+            flex-wrap: wrap;
+        }
+
+        .event-card{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            text-align: center;
+            border-radius: 8px;
+            margin: 5px;
+            align-items: center;
+            font-size: 15px;
+        }
+
+        .event-card h3{
+            width: 250px;
+            overflow: hidden;
+        }
+
+        .event-card button {
+            background-color: #2B2B28;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        
+        }
+
+        /*Footer*/
+
+        footer {
+            background-color: #2b2b28;
+            color: #fff;
+            padding: 10px;
+            display: grid;
+            align-items: center;
+            height: 150px;
+        }
+        
+        #logo img{
+            width: 30px;
+            margin-right: 10px;
+        }
+        #logo strong{
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+        .mahallah-info p,
+        .contact-info p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+        
+        }
+        .footer-logo img{
+            width: 14px;
+            margin-right: 5px;
+        }
+

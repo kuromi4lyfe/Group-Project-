@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home of Cougars - Mahallah Ruqayyah</title>
+    <link rel="stylesheet" href="facilities.css">
+    
+</head>
+<body>
+
+    <header>
+        <!--Logo-->
+        <a href="home.html">
+        <div class="logo">
+            <img src="Mahallah Ruqayyah Logo.png" alt="RuqayyahLogo" width="50" height="50">
+            <h1>Mahallah Ruqayyah</h1>
+        </div>
+        </a>
+    <!--Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a>
+                <ul>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="missionvision.html">Mission & Vision</a></li>
+                </ul>
+            </li>
+            <li><a href="#events">Events</a>
+                <ul>
+                    <li><a href="#centralized">Centralized</a></li>
+                    <li><a href="#mahallah">Mahallah</a></li>
+                </ul>
+            </li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#maps">Maps & Facilities</a>
+                <ul>
+                    <li><a href="facilities.html">General</a></li>
+                    <li><a href="map.html">Maps & Location</a></li>
+                </ul>
+            </li>
+            <li><a href="#teams">Teams & Contacts</a>
+            <ul>
+                <li><a href="#principal">Principal</a></li>
+                <li><a href="#rsd">RSD</a></li>
+                <li><a href="mrc">MRC</a></li>
+                <li><a href="#reachus">Reach Us</a></li>
+            </ul>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
+    <!--Header-->
+    <section id="facilities">
+        <div class="text-home">
+            <h1>Map & Facilities</h1>
+            </div>
+    </section>
+
+    <!--General Facilities Page-->
+    <section id="general-facilities">
+        <h2>General Facilities</h2>
+        <div class="wrap">
+            <div class="facilities-card">
+                <img src="musolla.jpeg">
+                <div class="card-content">
+                    <h3 class="card-title">Musolla Ar-Rahmah</h3>
+                    <p class="card-desc">Musolla for female and male visitor to perform their prayers</p>
+                </div>
+            </div>
+    
+            <div class="facilities-card">
+                <img src="Cafe Ruqayyah.jpeg">
+                <div class="card-content">
+                    <h3 class="card-title">Ruqayyah Cafe</h3>
+                    <p class="card-desc">Variety delicious foods and comfy atmosphere</p>
+                </div>
+            </div>
+            <div class="facilities-card">
+                <img src="Coop mart.jpeg">
+                <div class="card-content">
+                <h3>Mini Mart</h3>
+                <p class="card-desc">small retail that stocks range of everyday items</p>
+            </div>
+        </div>
+    
+            <div class="facilities-card">
+                <img src="Basketball court.jpeg">
+                <div class="card-content">
+                <h3>Basketball court</h3>
+                <p class="card-desc">Courts for residents</p>
+            </div>
+        </div>
+
+            <div class="facilities-card">
+                <img src="Multipurpose Hall.jpeg">
+                <div class="card-content">
+                <h3>Multipurpose Hall</h3>
+                <p class="card-desc">Residents can host events and play badminton</p>
+            </div>
+        </div>
+    
+            <div class="facilities-card">
+                <img src="Laundromat.jpg">
+                <div class="card-content">
+                <h3>Laundromat</h3> 
+                <p class="card-desc">Residents can wash their clothes here</p>
+            </div>
+            </div>
+        </div>
+    
+        <h2>Mahallah Blocks</h2>
+        <div class="wrap">
+            <div class="mahallah-card">
+                <img src="Block G.jpeg">
+                <div class="card-content">
+                <h3>Block G</h3>
+                <p class="card-desc">with a scenic view and a quadraplet rooms</p>
+            </div>
+        </div>
+    
+            <div class="mahallah-card">
+                <img src="Block H.jpeg">
+                <div class="card-content">
+                <h3>Block H</h3>
+                <p class="card-desc"></p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Feedback Tag-->
+    <div class="feedback-tag" id="feedbackform" onclick="feedbackForm()">Feedback</div>
+    
+    <div class="feedback-box">
+        <div class="content">
+            <span class="close" onclick="closeFeedbackForm()">&times;</span>
+            <h2>Share your feedback !</h2>
+            <form id="feedback-form" action="/submit-feedback" method="post">
+                <label for="feedback">Your feedback help us improve our facilities</label>
+                <textarea id="feedback" name="feedback" rows="4" cols="30"></textarea>
+                <button class=" form-popup" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+   <!--Footer-->
+
+    <footer>
+        <div id="logo">
+            <img src="Mahallah Ruqayyah Logo.png" alt="small logo"><strong>Mahallah Ruqayyah</strong></a>
+        </div>
+        <div class="mahallah-info">
+            <p>Home of Cougars</p>
+        </div>
+        <div class="contact-info">
+            <div class="footer-logo">
+            <img src="icons8-phone-50.png" alt=" ">
+            </div>
+            <p>+60 122143124</p>
+        </div>
+        <p>&copy; 2024 Mahallah Ruqayyah. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
