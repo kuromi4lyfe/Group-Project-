@@ -78,19 +78,17 @@ nav ul li:hover > ul{
 }
 
 
-#history{
+#history-header{
     height: 50vh;
-    background-image: url("maps-header.jpg");
+    background-image: url("map-header.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-
+    font-size: 15px;
 }
-
-.history-bg{
-    background-color: #F6EEE1;
+#history-header .text-home {
+    font-size: 20px;
 }
 .container {
     display: grid;
@@ -101,12 +99,9 @@ nav ul li:hover > ul{
     padding-top: 0;
     padding-left: 50px;
     padding-right: 50px;
-    
+    background-color: #e4ded1;
 }
-main {
-    padding-top: 0;
-    padding: 2em;
-}
+
 #about{
     text-align: justify;
 }
