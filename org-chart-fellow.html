@@ -5,41 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organizational Chart</title>
     <link rel="stylesheet" href="org-chart.css">
+
+    <!--Boxicon Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Remix icon Link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 
-    <header>
-        <!--Logo-->
+<header>
+    <!--Logo-->
         <a href="home.html">
-        <div class="logo">
-            <img src="Mahallah Ruqayyah Logo.png" alt="RuqayyahLogo" width="50" height="50">
-            <h1>Mahallah Ruqayyah</h1>
-        </div>
+            <div class="logo">
+                <img src="Mahallah Ruqayyah Logo.png" alt="RuqayyahLogo" width="40" height="40">Mahallah Ruqayyah
+            </div>
         </a>
-
     <!--Navigation Bar-->
-    <nav>
-        <ul>
+    
+        <ul class="navbar">
             <li><a href="#about">About</a>
-                <ul>
+                <ul class="dropdown">
                     <li><a href="history.html">History</a></li>
-                    <li><a href="missionvision.html">Mission & Vision</a></li>
+                    <li><a href="missionvision.html">Mission</a></li>
                 </ul>
             </li>
             <li><a href="#events">Events</a>
-                <ul>
+                <ul class="dropdown">
                     <li><a href="Centralized.html">Centralized</a></li>
                     <li><a href="Mahallah.html">Mahallah</a></li>
-                </ul>
+                </ul> 
             </li>
-            <li><a href="Achievements.html">Achievements</a></li>
-            <li><a href="#maps">Maps & Facilities</a>
-                <ul>
+            <li><a href="Achievement.html">Achievements</a></li>
+            <li><a href="#maps">Facilities</a>
+                <ul class="dropdown">
                     <li><a href="facilities.html">General</a></li>
-                    <li><a href="map.html">Maps & Location</a></li>
+                    <li><a href="map.html">Location</a></li>
                 </ul>
             </li>
-            <li><a href="#teams">Teams & Contacts</a>
-            <ul>
+            <li><a href="#teams">Teams</a>
+            <ul class="dropdown">
                 <li><a href="org-chart-fellow.html">Principal</a></li>
                 <li><a href="org-chart-admin.html">RSD</a></li>
                 <li><a href="org-chart-mrc.html">MRC</a></li>
@@ -47,9 +51,16 @@
             </ul>
             </li>
         </ul>
-    </nav>
-</header>
 
+        <!--Social Media-->
+        <div class="menu-right">
+            <a href="">Follow</a>
+            <a href="https://www.instagram.com/ruqayyahians?igsh=MW5iZWxhdnJ1bG5ybw=="><i class="ri-instagram-line"></i></a>
+            <a href="https://t.me/MahallahRuqayyahOfficial"><i class="ri-telegram-line"></i></a>
+            <a href="https://www.tiktok.com/@ruqayyahiium?_t=8j5MWIx8Bdq&_r=1"><i class="ri-tiktok-fill"></i></a>
+            <div class="bx bx-menu" id="menu-icon" ></div>
+        </div>
+    </header>
 
 <!--Header-->
 <section id="organizational-header">
@@ -66,13 +77,11 @@
 
     <div class="container">
         <main id="org-fellow">
-                <h2><strong>Student Affairs and Development Division</strong></h2>
-                <p><br></p>
             <section id="org-fellow">
                 <div class="wrap">
                     <div class="organizational-card">
                         <h3 class="card-title">Deputy Rector</h3>
-                        <img src="deputy rector.jpg">
+                        <img src="deputy rector.png">
                         <div class="card-content">
                             <p class="card-desc">Assoc. Prof. Dr. Zulkifli Hassan</p>
                         </div>
@@ -80,7 +89,7 @@
             
                     <div class="organizational-card">
                         <h3 class="card-title">Principal</h3>
-                        <img src="principal.jpg">
+                        <img src="principal.png">
                         <div class="card-content">
                             <p class="card-desc">Dr. Nik Md. Saiful Azizi<br>019 - 982 4437</p>
                         </div>
@@ -92,7 +101,7 @@
             
                 <div class="organizational-card">
                     <h3 class="card-title">Fellow Block PGA & PGB</h3>
-                    <img src="fellowPGAB.jpg">
+                    <img src="fellowPGAB.png">
                     <div class="card-content">
                         <p class="card-desc">Mdm Siti Nor Md Idris<br>017 - 636 2281</p>
                     </div>
@@ -100,7 +109,7 @@
             
                     <div class="organizational-card">
                         <h3 class="card-title">Fellow Block C & D</h3>
-                        <img src="fellowCD.jpg">
+                        <img src="fellowCD.png">
                         <div class="card-content">
                             <p class="card-desc">Mdm Maroswaty Bakri<br>018 - 662 3613</p>
                         </div>
@@ -108,7 +117,7 @@
 
                     <div class="organizational-card">
                         <h3 class="card-title">Fellow Block E & F</h3>
-                        <img src="fellowEF.jpeg">
+                        <img src="fellowEF.png">
                         <div class="card-content">
                             
                             <p class="card-desc">Mdm Hamizah Zainuddin<br>014- 303 7790</p>
@@ -117,7 +126,7 @@
                 
                     <div class="organizational-card">
                         <h3 class="card-title">Fellow Block G & H</h3>
-                        <img src="fellowGH.jpeg">
+                        <img src="fellowGH.png">
                         <div class="card-content">
                             <p class="card-desc">Dr. Nursafira<br>013 - 222 3126</p>
                         </div>
@@ -125,7 +134,7 @@
             
                     <div class="organizational-card">
                         <h3 class="card-title">Fellow Block I & J (L1&2)</h3>
-                        <img src="fellowIJ.jpeg">
+                        <img src="fellowIJ.png">
                         <div class="card-content">
                             <p class="card-desc">Mr. Yusni Yusop<br>011 - 1864 4042</p>
                         </div>
@@ -133,14 +142,14 @@
             
                     <div class="organizational-card">
                         <h3 class="card-title">Fellow Block K</h3>
-                        <img src="fellowK.jpeg">
+                        <img src="fellowK.png">
                         <div class="card-content">
                             <p class="card-desc">Mr. Johan Ibrahim<br>012 - 679 7038</p>
                         </div>
                     </div>
             
                     <div class="organizational-card"><h3 class="card-title">Fellow Block L</h3>
-                        <img src="fellowL.jpeg">
+                        <img src="fellowL.png">
                         <div class="card-content">
                             <p class="card-desc">Dr. Ahmad Bukhari Ramli<br>011 - 2311 8199</p>
                         </div>
@@ -148,7 +157,7 @@
                 
                     <div class="organizational-card">
                         <h3 class="card-title">Fellow Block M & J (L3&4)</h3>
-                        <img src="fellowMJ.jpeg">
+                        <img src="fellowMJ.png">
                         <div class="card-content">
                             <p class="card-desc">Dr. Ikhwan Abdullah<br>019 - 234 1724</p>
                         </div>
@@ -163,11 +172,11 @@
                 <ul>
                     <li>
                         <img src="isc 2023.jpeg" alt=" ">
-                        <a href="Centralized.html">INTER MAHALLAH SPORTS CARNIVAL 2023 (ISC 23)</a>
+                        <a href="#Centralized.html">INTER MAHALLAH SPORTS CARNIVAL 2023 (ISC 23)</a>
                     </li>
                     <li>
                         <img src="zoo negara volunteer.jpeg" alt=" ">
-                        <a href="Mahallah.html">ZOO NEGARA VOLUNTEER PROGRAM </a>
+                        <a href="#Mahallah.html">ZOO NEGARA VOLUNTEER PROGRAM </a>
                     </li>
                 </ul>
             </div>
