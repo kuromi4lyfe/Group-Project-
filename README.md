@@ -9,8 +9,9 @@ the online platform for new residents to get the latest information regarding Ma
 Members References: 
 
 Nur Aisyah Ameera Binti Khairil :
-https://www.youtube.com/watch?v=2Koro9Q2m5s
-https://codepen.io/GilaniRabbu/pen/jOQVejz?editors=1100
+
+- https://www.youtube.com/watch?v=2Koro9Q2m5s
+- https://codepen.io/GilaniRabbu/pen/jOQVejz?editors=1100
 
 Nur Aleeya Binti Zulaini 
 
