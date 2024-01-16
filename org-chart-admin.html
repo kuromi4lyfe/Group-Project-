@@ -5,41 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organizational Chart</title>
     <link rel="stylesheet" href="org-chart.css">
+
+    <!--Boxicon Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Remix icon Link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 
-    <header>
-        <!--Logo-->
+<header>
+    <!--Logo-->
         <a href="home.html">
-        <div class="logo">
-            <img src="Mahallah Ruqayyah Logo.png" alt="RuqayyahLogo" width="50" height="50">
-            <h1>Mahallah Ruqayyah</h1>
-        </div>
+            <div class="logo">
+                <img src="Mahallah Ruqayyah Logo.png" alt="RuqayyahLogo" width="40" height="40">Mahallah Ruqayyah
+            </div>
         </a>
-
     <!--Navigation Bar-->
-    <nav>
-        <ul>
+    
+        <ul class="navbar">
             <li><a href="#about">About</a>
-                <ul>
+                <ul class="dropdown">
                     <li><a href="history.html">History</a></li>
-                    <li><a href="missionvision.html">Mission & Vision</a></li>
+                    <li><a href="missionvision.html">Mission</a></li>
                 </ul>
             </li>
             <li><a href="#events">Events</a>
-                <ul>
+                <ul class="dropdown">
                     <li><a href="Centralized.html">Centralized</a></li>
                     <li><a href="Mahallah.html">Mahallah</a></li>
-                </ul>
+                </ul> 
             </li>
-            <li><a href="Achievements.html">Achievements</a></li>
-            <li><a href="#maps">Maps & Facilities</a>
-                <ul>
+            <li><a href="Achievement.html">Achievements</a></li>
+            <li><a href="#maps">Facilities</a>
+                <ul class="dropdown">
                     <li><a href="facilities.html">General</a></li>
-                    <li><a href="map.html">Maps & Location</a></li>
+                    <li><a href="map.html">Location</a></li>
                 </ul>
             </li>
-            <li><a href="#teams">Teams & Contacts</a>
-            <ul>
+            <li><a href="#teams">Teams</a>
+            <ul class="dropdown">
                 <li><a href="org-chart-fellow.html">Principal</a></li>
                 <li><a href="org-chart-admin.html">RSD</a></li>
                 <li><a href="org-chart-mrc.html">MRC</a></li>
@@ -47,9 +51,16 @@
             </ul>
             </li>
         </ul>
-    </nav>
-</header>
 
+        <!--Social Media-->
+        <div class="menu-right">
+            <a href="">Follow</a>
+            <a href="https://www.instagram.com/ruqayyahians?igsh=MW5iZWxhdnJ1bG5ybw=="><i class="ri-instagram-line"></i></a>
+            <a href="https://t.me/MahallahRuqayyahOfficial"><i class="ri-telegram-line"></i></a>
+            <a href="https://www.tiktok.com/@ruqayyahiium?_t=8j5MWIx8Bdq&_r=1"><i class="ri-tiktok-fill"></i></a>
+            <div class="bx bx-menu" id="menu-icon" ></div>
+        </div>
+    </header>
 
 <!--Header-->
 <section id="organizational-header">
@@ -66,13 +77,11 @@
 
     <div class="container">
         <main id="org-rsd">
-            <h2><strong>Student Affairs and Development Division</strong></h2>
-            <p><br></p>
             <section id="org-rsd">
             <div class="wrap">
             <div class="organizational-card">
                 <h3 class="card-title">Execution Finance</h3>
-                    <img src="exec finance.jpg">
+                    <img src="exec finance.png">
                     <div class="card-content">
                         <p class="card-desc">Dato' Hj. Ahmad Zailan Shaari</p>
                     </div>
@@ -80,7 +89,7 @@
         
                 <div class="organizational-card">
                     <h3 class="card-title">Director Residential</h3>
-                    <img src="director residential.jpeg">
+                    <img src="director residential.png">
                     <div class="card-content">
                         <p class="card-desc">Mdm. Siti Thuralya</p>
                     </div>
@@ -88,9 +97,9 @@
             
                 <div class="organizational-card">
                     <h3 class="card-title">Hostel Manager</h3>
-                    <img src="host manager.jpeg">
+                    <img src="host manager.png">
                     <div class="card-content">
-                        <p class="card-desc">Mdm. Wan Zawiyah Wan Ya'cob/p>
+                        <p class="card-desc">Mdm. Wan Zawiyah Wan Ya'cob</p>
                     </div>
                 </div>
     
@@ -99,7 +108,7 @@
             
                     <div class="organizational-card">
                         <h3 class="card-title">Administrative Assistant</h3>
-                        <img src="adm assist 1.jpg">
+                        <img src="adm assist 1.png">
                         <div class="card-content">
                             <p class="card-desc">Mr. Ahmad Zaki Mustafa</p>
                         </div>
@@ -107,7 +116,7 @@
 
                     <div class="organizational-card">
                         <h3 class="card-title">Administrative Assistant</h3>
-                        <img src="adm assist 2.jpeg">
+                        <img src="adm assist 2.png">
                         <div class="card-content">
                             <p class="card-desc">Mr. Mohd. Najib Mohd. Kalami</p>
                         </div>
@@ -115,7 +124,7 @@
                 
                     <div class="organizational-card">
                         <h3 class="card-title">Administrative Assistant</h3>
-                        <img src="adm assist 3.jpg">
+                        <img src="adm assist 3.png">
                         <div class="card-content">
                             <p class="card-desc">Mrs. Norain Shafian</p>
                         </div>
@@ -123,7 +132,7 @@
             
                     <div class="organizational-card">
                         <h3 class="card-title">Administrative Assistant</h3>
-                        <img src="adm assist 4.jpeg">
+                        <img src="adm assist 4.png">
                         <div class="card-content">
                             <p class="card-desc">Mrs. Noor Aini Jamaluddin</p>
                         </div>
@@ -138,11 +147,11 @@
                 <ul>
                     <li>
                         <img src="isc 2023.jpeg" alt=" ">
-                        <a href="Centralized.html">INTER MAHALLAH SPORTS CARNIVAL 2023 (ISC 23)</a>
+                        <a href="#Centralized.html">INTER MAHALLAH SPORTS CARNIVAL 2023 (ISC 23)</a>
                     </li>
                     <li>
                         <img src="zoo negara volunteer.jpeg" alt=" ">
-                        <a href="Mahallah.html">ZOO NEGARA VOLUNTEER PROGRAM </a>
+                        <a href="#Mahallah.html">ZOO NEGARA VOLUNTEER PROGRAM </a>
                     </li>
                 </ul>
             </div>
