@@ -2,7 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    
+    <!--Boxicon Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Remix icon Link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+
+
     <title>About Mahallah Ruqayyah</title>
     <link rel="stylesheet" href="mottoVision.css">
 
@@ -10,52 +18,57 @@
 <body>
     <header>
         <!--Logo-->
-        <a href="home.html">
-        <div class="logo">
-            <img src="Mahallah Ruqayyah Logo.png" alt="RuqayyahLogo" width="50" height="50">
-            <h1>Mahallah Ruqayyah</h1>
-        </div>
-        </a>
+            <a href="home.html">
+                <div class="logo">
+                    <img src="Mahallah Ruqayyah Logo.png" alt="RuqayyahLogo" width="40" height="40">Mahallah Ruqayyah
+                </div>
+            </a>
+        <!--Navigation Bar-->
         
-    <!--Navigation Bar-->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a>
-                <ul>
-                    <li><a href="history.html">History</a></li>
-                    <li><a href="missionvision.html">Mission & Vision</a></li>
+            <ul class="navbar">
+                <li><a href="#about">About</a>
+                    <ul class="dropdown">
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="missionvision.html">Mission</a></li>
+                    </ul>
+                </li>
+                <li><a href="#events">Events</a>
+                    <ul class="dropdown">
+                        <li><a href="Centralized.html">Centralized</a></li>
+                        <li><a href="Mahallah.html">Mahallah</a></li>
+                    </ul> 
+                </li>
+                <li><a href="Achievement.html">Achievements</a></li>
+                <li><a href="#maps">Facilities</a>
+                    <ul class="dropdown">
+                        <li><a href="facilities.html">General</a></li>
+                        <li><a href="map.html">Location</a></li>
+                    </ul>
+                </li>
+                <li><a href="#teams">Teams</a>
+                <ul class="dropdown">
+                    <li><a href="org-chart-fellow.html">Principal</a></li>
+                    <li><a href="org-chart-admin.html">RSD</a></li>
+                    <li><a href="org-chart-mrc.html">MRC</a></li>
+                    <li><a href="reach-us.html">Reach Us</a></li>
                 </ul>
-            </li>
-            <li><a href="#events">Events</a>
-                <ul>
-                    <li><a href="Centralized.html">Centralized</a></li>
-                    <li><a href="Mahallah.html">Mahallah</a></li>
-                </ul>
-            </li>
-            <li><a href="Achievement.html">Achievements</a></li>
-            <li><a href="#maps">Maps & Facilities</a>
-                <ul>
-                    <li><a href="facilities.html">General</a></li>
-                    <li><a href="map.html">Maps & Location</a></li>
-                </ul>
-            </li>
-            <li><a href="#teams">Teams & Contacts</a>
-            <ul>
-                <li><a href="org-chart-fellow.html">Principal</a></li>
-                <li><a href="org-chart-admin.html">RSD</a></li>
-                <li><a href="org-chart-mrc.html">MRC</a></li>
-                <li><a href="reach-us.html">Reach Us</a></li>
+                </li>
             </ul>
-            </li>
-        </ul>
-    </nav>
-    </header>
-
+    
+            <!--Social Media-->
+            <div class="menu-right">
+                <a href="">Follow</a>
+                <a href="https://www.instagram.com/ruqayyahians?igsh=MW5iZWxhdnJ1bG5ybw=="><i class="ri-instagram-line"></i></a>
+                <a href="https://t.me/MahallahRuqayyahOfficial"><i class="ri-telegram-line"></i></a>
+                <a href="https://www.tiktok.com/@ruqayyahiium?_t=8j5MWIx8Bdq&_r=1"><i class="ri-tiktok-fill"></i></a>
+                <div class="bx bx-menu" id="menu-icon" ></div>
+            </div>
+        </header>
+    
+    <div class="mission-bg">
     <section id="missionvision">
-        <div class="text-home">
-            <h1>Mission & Vision</h1>
-    </div>
-        </section>  
+        <h1>Mission & Vision</h1>
+        </section> 
     
     <div class="ContentAbout">
         <main>
@@ -115,3 +128,4 @@
     </footer>     
 </body>
 </html>
+
