@@ -5,41 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organizational Chart</title>
     <link rel="stylesheet" href="org-chart.css">
+
+    <!--Boxicon Link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Remix icon Link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 
-    <header>
-        <!--Logo-->
+<header>
+    <!--Logo-->
         <a href="home.html">
-        <div class="logo">
-            <img src="Mahallah Ruqayyah Logo.png" alt="RuqayyahLogo" width="50" height="50">
-            <h1>Mahallah Ruqayyah</h1>
-        </div>
+            <div class="logo">
+                <img src="Mahallah Ruqayyah Logo.png" alt="RuqayyahLogo" width="40" height="40">Mahallah Ruqayyah
+            </div>
         </a>
-
     <!--Navigation Bar-->
-    <nav>
-        <ul>
+    
+        <ul class="navbar">
             <li><a href="#about">About</a>
-                <ul>
+                <ul class="dropdown">
                     <li><a href="history.html">History</a></li>
-                    <li><a href="missionvision.html">Mission & Vision</a></li>
+                    <li><a href="missionvision.html">Mission</a></li>
                 </ul>
             </li>
             <li><a href="#events">Events</a>
-                <ul>
+                <ul class="dropdown">
                     <li><a href="Centralized.html">Centralized</a></li>
                     <li><a href="Mahallah.html">Mahallah</a></li>
-                </ul>
+                </ul> 
             </li>
-            <li><a href="Achievements.html">Achievements</a></li>
-            <li><a href="#maps">Maps & Facilities</a>
-                <ul>
+            <li><a href="Achievement.html">Achievements</a></li>
+            <li><a href="#maps">Facilities</a>
+                <ul class="dropdown">
                     <li><a href="facilities.html">General</a></li>
-                    <li><a href="map.html">Maps & Location</a></li>
+                    <li><a href="map.html">Location</a></li>
                 </ul>
             </li>
-            <li><a href="#teams">Teams & Contacts</a>
-            <ul>
+            <li><a href="#teams">Teams</a>
+            <ul class="dropdown">
                 <li><a href="org-chart-fellow.html">Principal</a></li>
                 <li><a href="org-chart-admin.html">RSD</a></li>
                 <li><a href="org-chart-mrc.html">MRC</a></li>
@@ -47,9 +51,16 @@
             </ul>
             </li>
         </ul>
-    </nav>
-</header>
 
+        <!--Social Media-->
+        <div class="menu-right">
+            <a href="">Follow</a>
+            <a href="https://www.instagram.com/ruqayyahians?igsh=MW5iZWxhdnJ1bG5ybw=="><i class="ri-instagram-line"></i></a>
+            <a href="https://t.me/MahallahRuqayyahOfficial"><i class="ri-telegram-line"></i></a>
+            <a href="https://www.tiktok.com/@ruqayyahiium?_t=8j5MWIx8Bdq&_r=1"><i class="ri-tiktok-fill"></i></a>
+            <div class="bx bx-menu" id="menu-icon" ></div>
+        </div>
+    </header>
 
 <!--Header-->
 <section id="organizational-header">
@@ -66,14 +77,12 @@
 
     <div class="container">
         <main id="org-mrc">
-                <h2><strong>Mahallah Representative Committee</strong></h2>
-                <p><br></p>
             <section id="org-mrc">
                 <div class="wrap">
 
                 <div class="organizational-card">
                     <h3 class="card-title">Treasurer</h3>
-                    <img src="treasurer.jpg">
+                    <img src="treasurer.png">
                     <div class="card-content">
                         <p class="card-desc">MRC Nurul Asyikin<br>1912024<br>014 - 315 7667</p>
                     </div>
@@ -81,7 +90,7 @@
         
                 <div class="organizational-card">
                     <h3 class="card-title">President</h3>
-                    <img src="pres.jpg">
+                    <img src="pres.png">
                     <div class="card-content">
                         <p class="card-desc">MRC Siti Norsarah<br>2016864<br>011 - 378 83416</p>
                     </div>
@@ -89,7 +98,7 @@
             
                 <div class="organizational-card">
                     <h3 class="card-title">Vice President</h3>
-                    <img src="vice pres.jpg">
+                    <img src="vice pres.png">
                     <div class="card-content">
                         <p class="card-desc">MRC Nurul Aqilah<br>1910634<br>014 - 665 6407</p>
                     </div>
@@ -97,7 +106,7 @@
             
                     <div class="organizational-card">
                         <h3 class="card-title">Secretary</h3>
-                        <img src="secretary.jpg">
+                        <img src="secretary.png">
                         <div class="card-content">
                             <p class="card-desc">MRC Syazwina<br>2211604<br>013 - 853 9698</p>
                         </div>
@@ -105,7 +114,7 @@
 
                     <div class="organizational-card">
                         <h3 class="card-title">Dakwah & Tarbiyyah</h3>
-                        <img src="dakwah.jpg">
+                        <img src="dakwah.png">
                         <div class="card-content">
                             <p class="card-desc">MRC Umar<br>1834913<br>010 - 96 8273</p>
                         </div>
@@ -113,7 +122,7 @@
                 
                     <div class="organizational-card">
                         <h3 class="card-title">Community Service</h3>
-                        <img src="community.jpg">
+                        <img src="community.png">
                         <div class="card-content">
                             <p class="card-desc">MRC Khairunnisa<br>1912324<br>011 - 3982 8266</p>
                         </div>
@@ -121,7 +130,7 @@
             
                     <div class="organizational-card">
                         <h3 class="card-title">Media Publication</h3>
-                        <img src="media pub.jpg">
+                        <img src="media pub.png">
                         <div class="card-content">
                             <p class="card-desc">MRC Nurfarah Hanun<br>1911902<br>012 - 871 8339</p>
                         </div>
@@ -129,7 +138,7 @@
 
                     <div class="organizational-card">
                         <h3 class="card-title">Sport & Recreation</h3>
-                        <img src="sport.jpg">
+                        <img src="sport.png">
                         <div class="card-content">
                             <p class="card-desc">MRC Abrar<br>217075<br>010 - 200 6713</p>
                         </div>
@@ -137,7 +146,7 @@
 
                     <div class="organizational-card">
                         <h3 class="card-title">Cultural & Art</h3>
-                        <img src="cult art.jpg">
+                        <img src="cult art.png">
                         <div class="card-content">
                             <p class="card-desc">MRC Ulfat Sumaya<br>1822104<br>011 - 2636 9064</p>
                         </div>
@@ -145,23 +154,23 @@
 
                     <div class="organizational-card">
                         <h3 class="card-title">Welfare & Residential</h3>
-                        <img src="welfare.jpg">
+                        <img src="welfare.png">
                         <div class="card-content">
                             <p class="card-desc">MRC Khairina<br>1913734<br>017 - 881 8790</p>
                         </div>
                     </div>
 
                     <div class="organizational-card">
-                        <h3 class="card-title">Education & International</h3>
-                        <img src="educational.jpg">
+                        <h3 class="card-title">Educational</h3>
+                        <img src="educational.png">
                         <div class="card-content">
                             <p class="card-desc">MRC Nur Hidayatul<br>1910260<br>013 - 762 4597</p>
                         </div>
                     </div>
 
                     <div class="organizational-card">
-                        <h3 class="card-title">Entrepreneur & Sponsorship</h3>
-                        <img src="entrepreneur.jpg">
+                        <h3 class="card-title">Entrepreneur</h3>
+                        <img src="entrepreneur.png">
                         <div class="card-content">
                             <p class="card-desc">MRC Diyana Atiqah<br>1914288<br>011 - 5623 4125</p>
                         </div>
@@ -176,11 +185,11 @@
                 <ul>
                     <li>
                         <img src="isc 2023.jpeg" alt=" ">
-                        <a href="Centralized.html">INTER MAHALLAH SPORTS CARNIVAL 2023 (ISC 23)</a>
+                        <a href="#Centralized.html">INTER MAHALLAH SPORTS CARNIVAL 2023 (ISC 23)</a>
                     </li>
                     <li>
                         <img src="zoo negara volunteer.jpeg" alt=" ">
-                        <a href="Mahallah.html">ZOO NEGARA VOLUNTEER PROGRAM </a>
+                        <a href="#Mahallah.html">ZOO NEGARA VOLUNTEER PROGRAM </a>
                     </li>
                 </ul>
             </div>
