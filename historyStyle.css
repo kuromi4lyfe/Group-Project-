@@ -232,3 +232,13 @@ footer #logo a strong{
     width: 14px;
     margin-right: 5px;
 }
+
+/*Responsive*/
+@media (max-width: 1700px){
+    header{
+        padding: 18px 8%;
+    }
+    header.sticky{
+        padding: 7px 8%;
+    }
+}
